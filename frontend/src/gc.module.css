@@ -1,0 +1,13 @@
+.container
+{
+    display: flex;
+    gap: 10px;
+
+    ul{
+        justify-content: left;
+        li{
+            justify-content: left;
+        }
+    }
+    
+}

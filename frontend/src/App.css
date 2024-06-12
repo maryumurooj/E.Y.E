@@ -50,11 +50,8 @@ body{
 .top{
   height: fit-content;
 }
-img{
-  position: absolute;
-  top: 43px;
-  left: 320px;
-  scale: 0.1;
+img{  
+  height: 100px;
 }
 
 h1{

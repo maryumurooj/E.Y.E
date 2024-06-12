@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-
+import styles from './gc.module.css';
 const GestureControl = () => {
     const [gestures, setGestures] = useState([]);
     const [isDetecting, setIsDetecting] = useState(false);
@@ -47,18 +47,29 @@ const GestureControl = () => {
         setIsDetecting(false); // Stop detection if running
     };
 
+
+        const navigateToTextToSign = () => {
+          window.location.href = 'http://127.0.0.1:5500/AmericanTranslator.html';
+        }
+
     return (
         <div>
+        <div className={styles.container}>
             <button onClick={startDetection}>Start Detection</button>
             <button onClick={stopDetection}>Stop Detection</button>
             <button onClick={fetchGestures}>Fetch Gestures</button>
             <button onClick={speakGestures}>Speak Gestures</button>
             <button onClick={resetDetection}>Reset</button>
+            <button onClick={navigateToTextToSign}>✨</button>
+
+         </div>
+            
             <ul>
                 {gestures.map((gesture, index) => (
                     <li key={index}>{gesture}</li>
                 ))}
             </ul>
+        
         </div>
     );
 };

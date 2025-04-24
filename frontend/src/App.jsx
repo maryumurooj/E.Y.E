@@ -1,5 +1,5 @@
 import React from 'react';
-import GestureControl from './components/GestureControl';
+import GestureControl from './GestureControl';
 import "./App.css"
 import logo from "./assets/logo.png"
 

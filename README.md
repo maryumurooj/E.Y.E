@@ -127,13 +127,12 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+## 👥 Authors/Contributors
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 👥 Authors
-
-- Your Name (@yourusername)
+- Maryum Urooj (@maryumurooj)
+- Yasir Hussain (@yasir027)
+- Uzma Begum
+- Adil Shaik
 
 ## 🙏 Acknowledgements
 
@@ -143,4 +142,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📞 Contact
 
-If you have any questions or feedback, please reach out at your.email@example.com or open an issue on GitHub.
+If you have any questions or feedback, please reach out at maryum.urooj05@gmail.com or open an issue on GitHub.

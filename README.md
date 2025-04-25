@@ -6,6 +6,7 @@
 
 E.Y.E. (Enhance Your Expression) is an innovative application that bridges communication gaps by translating sign language gestures into spoken words in real-time. Using computer vision and machine learning techniques, E.Y.E. detects hand gestures through a webcam, interprets them as sign language, and converts them to speech, making communication more accessible for the deaf and hard of hearing community.
 
+For more reaserch and the development process of the Project check out the [Full Project Record](https://drive.google.com/file/d/1SFiMA4SoUI1WnnceDkAgWKuQuiZoDUmi/view?usp=drive_link)
 ## ✨ Features
 
 - **Real-time Sign Language Detection**: Captures and interprets sign language gestures through your webcam
